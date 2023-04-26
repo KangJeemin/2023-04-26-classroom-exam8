@@ -1,4 +1,4 @@
-import inquirer from 'inquirer'
+mport inquirer from 'inquirer'
 
 //? inquirer 라이브러리의 .prompt() 메서드는 프로미스를 반환함
 //? then() 메서드로 입력 받은 데이터를 전달가능
@@ -38,4 +38,3 @@ function exampleOne(array) {
 
 let array = ['1','2','3','4','5','6','7','8']
 console.log(array.sort(()=>{Math.random()-0.5}))
-
