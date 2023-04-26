@@ -36,5 +36,10 @@ function exampleOne(array) {
 //         console.log('Answers:',answers);
 //     });
 
+function shuffle(array){
+    array.sort(()=>Math.random()-0.5);
+    return array
+}
 let array = ['1','2','3','4','5','6','7','8']
-console.log(array.sort(()=>{Math.random()-0.5}))
+
+console.log(shuffle(array))
