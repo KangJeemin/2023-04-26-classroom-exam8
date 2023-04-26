@@ -1,4 +1,4 @@
-mport inquirer from 'inquirer'
+import inquirer from 'inquirer'
 
 //? inquirer 라이브러리의 .prompt() 메서드는 프로미스를 반환함
 //? then() 메서드로 입력 받은 데이터를 전달가능
