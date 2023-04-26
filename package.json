@@ -16,5 +16,8 @@
     "url": "https://github.com/KangJeemin/2023-04-26-classroom-exam8/issues"
   },
   "homepage": "https://github.com/KangJeemin/2023-04-26-classroom-exam8#readme",
-  "type":"module"
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.0"
+  }
 }
